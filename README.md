@@ -1,5 +1,8 @@
 # DSA Quiz Component
 
+#### note: ai (gemini 2.5 pro) was used in the construction of this , Thankyou HackClub for SOM!!
+
+
 Welcome to the **DSA Quiz** component!  
 This is a modular, visually engaging quiz interface designed as part of a larger open-source project by our university's OpenSource Club. The main project is a comprehensive **DSA Visualization Tool** that helps students and enthusiasts learn Data Structures and Algorithms (DSA) through interactive visualizations and quizzes.
 
