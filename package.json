@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "npm start"
+    "dev": "n"
   },
   "browserslist": {
     "production": [
@@ -28,6 +28,7 @@
       "not op_mini all"
     ],
     "development": [
+      "last 1 opera version",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { FaGithub, FaRegLightbulb, FaListUl, FaLayerGroup, FaTree, FaProjectDiagram, FaSitemap, FaSortNumericDown, FaChartLine, FaCode, FaRandom, FaSlidersH } from 'react-icons/fa';
+import { FaGithub, FaRocket, FaRegLightbulb, FaListUl, FaLayerGroup, FaTree, FaProjectDiagram, FaSitemap, FaSortNumericDown, FaChartLine, FaCode, FaRandom, FaSlidersH } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import '../styles/landingpage.css';
 import Robocats from '../../assets/Robocats.svg';
@@ -146,6 +146,24 @@ const HomePage = () => {
             <span>Openverse</span>
           </a>
           </div>
+          <motion.div
+                     
+                      whileTap={{ scale: 0.97 }}
+                      initial={{ opacity: 0, y: -20 }}
+                      animate={{ opacity: 1, y: 0, transition: { delay: 0.5, type: "spring", stiffness: 200 } }}
+                      className="take-quiz-btn-wrapper"
+                    >
+          
+                      <Link to="/quiz" className="take-quiz-btn">
+                     
+                        <span className="quiz-btn-icon">
+                          <FaRocket size={20} />
+                        </span>
+                        <span className="quiz-btn-text">Take a Quiz</span>
+                        <span className="quiz-btn-emoji" role="img" aria-label="sparkles">✨</span>
+                      </Link>
+                      <span className="quiz-btn-glow"></span>
+                    </motion.div>
       </header>
 
       <main className="homepage-main">
